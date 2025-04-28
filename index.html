@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
 </head>
 <body>
     <!--LANDING SECTION-->
@@ -16,147 +16,119 @@
         <nav class="nav">
             <ul>
                 <li><a href="#home">Home</a></li>
-
                 <li><a href="#about">About</a></li>
-                <li><a href="#hobbies">Hobby</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="container-header">
-                <div class="profile">
-                   <img class="profile-pic" src="images/me.png" alt=""> 
-                   <h1>Yishuo Jason Zhang</h1> 
-                </div>
-                <div class="button-group">
-                    <button class="btn-profile">Learn More</button>
-                    <button class="btn-profile">My Hobbies</button>
-                    <button class="btn-profile">Portfolio</button>
-
-                </div>
-
+        <div id="home" class="container-header">
+            <div class="profile">
+               <img class="profile-pic" src="images/yzh.jpeg" alt=""> 
+               <h1>Yishuo <span class="highlight-green">Jason</span> Zhang</h1> 
+            </div>
+            <div class="button-group">
+                <button class="btn-profile">Learn More</button>
+                <button class="btn-profile">My Hobbies</button>
+                <button class="btn-profile">Portfolio</button>
+            </div>
         </div>
-      
-
     </header>
 
     <!--ABOUT ME SECTION-->
     <section id="about">
         <h2>About Me</h2>
         <p>Brief introduction about yourself.</p>
-
-   <div class="row">
-    <div class="col-md-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="images/wow.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Myself</h5>
-            <p class="card-text">Great Of All Time.</p>
-            <a href="#" class="btn btn-primary">See More</a>
-          </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/woww.jpeg" alt="Myself">
+                        <div class="card-body">
+                            <h5 class="card-title">Myself</h5>
+                            <p class="card-text">Great Of All Time.</p>
+                            <a href="#" class="btn btn-custom">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/cat1.jpeg" alt="My Cat">
+                        <div class="card-body">
+                            <h5 class="card-title">My Cat</h5>
+                            <p class="card-text">My cat in China.</p>
+                            <a href="#" class="btn btn-custom">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/cat2.jpeg" alt="My Cat2">
+                        <div class="card-body">
+                            <h5 class="card-title">My Cat2</h5>
+                            <p class="card-text">My another cat in China.</p>
+                            <a href="#" class="btn btn-custom">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-         <div class="col-md-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="images/cat.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">My Cat</h5>
-          <p class="card-text">This is my cat with swag that's nice. </p>.</p>
-          <a href="#" class="btn btn-primary">See More</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="images/cat2.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Another Cat</h5>
-          <p class="card-text">My another cat.</p>
-          <a href="#" class="btn btn-primary">See More</a>
-        </div>
-      </div>
-    </div>
-   </div>
-       
-          </div>
     </section>
 
-    <!--HOBBIES SECTION-->
-    <section id="hobbies">
-        <h2>Hobbies</h2>
+    <!--PORTFOLIO SECTION-->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
         <div class="container mt-4">
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">About Me Trailer</h5>
-                  <p class="card-text">Some example text for card 1.</p>
-                  <a href="https://drive.google.com/file/d/1qQudpjWn6GQyYabyVpqTwoM7b8v119_Q/view" class="btn btn-primary">Go somewhere</a>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/wwoww.jpeg" alt="About Me Trailer">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me Trailer</h5>
+                            <p class="card-text">A video that can represent myself.</p>
+                            <a href="https://drive.google.com/file/d/1qQudpjWn6GQyYabyVpqTwoM7b8v119_Q/view" class="btn btn-custom">Watch</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">        
-                  <h5 class="card-title">Stop Motion 1</h5>
-                  <p class="card-text">Some example text for card 2.</p>
-                  <a href="https://drive.google.com/file/d/13AdzYBPMTRaq9hFQ4G9SQyoaP2aO5A9K/view" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/oow.jpeg" alt="Stop Motion 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Stop Motion 1</h5>
+                            <p class="card-text">A 10s stop motion video of two pens fighting together.</p>
+                            <a href="https://drive.google.com/file/d/13AdzYBPMTRaq9hFQ4G9SQyoaP2aO5A9K/view" class="btn btn-custom">Watch</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Stop Mation 2</h5>
-                  <p class="card-text">Some example text for card 3.</p>
-                  <a href="https://drive.google.com/file/d/1v7YNwybZQyx7uiCGED_MMjiYl9DmTMB4/view" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/owo.jpeg" alt="Stop Motion 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Stop Motion 2</h5>
+                            <p class="card-text">A 1min stop motion video of a pencil fighting with an eraser.</p>
+                            <a href="https://drive.google.com/file/d/1v7YNwybZQyx7uiCGED_MMjiYl9DmTMB4/view" class="btn btn-custom">Watch</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Lakbay Poster</h5>
-                  <p class="card-text">Some example text for card 4.</p>
-                  <a href="https://drive.google.com/file/d/15UROLbrgSJd9xtvyuqJsFSSy5FpDK3SV/view" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Ticket Design</h5>
-                  <p class="card-text">Some example text for card 5.</p>
-                  <a href="https://drive.google.com/file/d/1cxAsEaHhTU-4zQZ4BBN7E9kWx9UIoCW4/view" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card" style="width: 100%;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Cloth Design</h5>
-                  <p class="card-text">Some example text for card 6.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>        
     </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: @example.com</p>
-    </section>
+
+    <!--CONTACT SECTION-->
+    <section id="contact" class="contact-section">
+      <div class="container text-center">
+          <h2 class="mb-4">Contact Me</h2>
+          <p class="mb-4">Feel free to reach out to me!</p>
+          <div class="contact-info">
+              <p><strong>Email:</strong> <a href="mailto:yzhang1368@bisb.edu.ph" class="highlight-green">yzhang1368@bisb.edu.ph</a></p>
+              <p><strong>Phone:</strong> <span class="highlight-green">+86 136 8122 7081</span></p> <!-- Optional: Add phone -->
+          </div>
+          <div class="social-icons mt-4">
+              <a href="#" class="btn btn-custom mx-2">LinkedIn</a>
+              <a href="#" class="btn btn-custom mx-2">GitHub</a>
+              <a href="mailto:yzhang1368@bisb.edu.ph" class="btn btn-custom mx-2">Email Me</a>
+          </div>
+      </div>
+  </section>
 
     <footer>
         <p>&copy; 2025 Yishuo Zhang</p>
